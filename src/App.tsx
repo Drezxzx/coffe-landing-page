@@ -14,7 +14,7 @@ const [active , setActive] = useState<string>("all")
   }
   return (
     <div className='text-white h-fit  '>
-      <img src={backgroud} alt="Imagen de cafe" />
+      <img src={backgroud} className='max-sm:h-[30vh] object-cover' alt="Imagen de cafe" />
       <main>
         <article className='dm-sans min-h-full inset-10 rounded-md bg-[#1B1D1F] w-[80%] md:inset-20 lg:inset-40 absolute h-fit  flex flex-col p-5 md:p-10 lg:p-20  items-center'>
           <div className='lg:w-1/2 flex flex-col items-center justify-center gap-4'>
