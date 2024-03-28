@@ -69,7 +69,7 @@ export default function ItemsCoffe({ state }: { state: boolean }) {
         {
             products.length > 0 && products.map((product) => (
                 <article key={product.id} className="flex flex-col hover:scale-105 cursor-pointer
-                transition relative gap-2  ">
+                transition relative md:gap-2 gap-4  ">
                     <Popular popular={product.popular}></Popular>
                     <img className="rounded-xl" src={product.image} alt={product.name} />
                     <div className="flex justify-between items-center">
